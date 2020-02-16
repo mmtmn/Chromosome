@@ -17,7 +17,7 @@ public class Chromosome {
     void display_number() {
         System.out.println(
             '\n' + "This is the number of the chromosome: "
-            + '\n' + number + " Chromosomes"
+            + '\n' + number + " is the number of the chromosome"
             + '\n'
         );
     }
