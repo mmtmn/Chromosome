@@ -9,88 +9,72 @@ public class Chromosome {
 
     void display_info() {
         System.out.println(
-            "Information about this chromosome: " 
-            + info
+            '\n' + "Information about this chromosome: " 
+            + '\n' + info
         );
     }
 
     void display_number() {
         System.out.println(
-            "This is the number of the chromosome: "
-            + '\n' + number + '\n'
+            '\n' + "This is the number of the chromosome: "
+            + '\n' + number + " Chromosomes"
+            + '\n'
         );
     }
 
     void display_genes() {
         System.out.println(
-        "This is the amount of genes: "
-        + '\n' + genes + '\n'
+            '\n' + "This is the amount of genes: "
+            + '\n' + genes 
+            + " genes"
+            + '\n'
         );
     }
 
     void display_base_pairs() {
         System.out.println(
-        "This is the amount of base pairs: "
-        + '\n' + base_pairs + '\n'
+            '\n' + "This is the amount of base pairs: "
+            + '\n' + base_pairs 
+            + " base pairs"
+            + '\n'
         );
     }
 
     void display_porcentage_of_bases() {
         System.out.println(
-        "This is the percentage of bases: "
-        + '\n' + porcentage_of_bases + '\n'
+            '\n' + "This is the percentage of bases: "
+            + '\n' + porcentage_of_bases 
+            + "% of bases"
+            + '\n'
         );
     }
 
     void display_porcentage_sequence_base_pairs() {
         System.out.println(
-        "This is the amount of sequence base pairs: "
-        + '\n' + porcentage_sequence_base_pairs + '\n'
+            '\n' + "This is the amount of sequence base pairs: "
+            + '\n' + porcentage_sequence_base_pairs 
+            + "% of sequence base pairs"
+            + '\n'
         );
     }
          
     void display_sequence_base_pairs() {
         System.out.println(
-        "This is the sequence base pairs: "
-        + '\n' + sequence_base_pairs + '\n'
+            '\n' + "This is the sequence base pairs: "
+            + '\n' + sequence_base_pairs 
+            + " sequence base pairs"
+            + '\n'
         );
     }
     
     void display_all() {
-        System.out.println(
-            '\n' + "Information about this chromosome:" 
-            + '\n' + info
-        );
-
-        System.out.println(
-        "This is the amount of genes: "
-        + '\n' + genes + '\n'
-        );
-
-        System.out.println(
-        "This is the amount of genes: "
-        + '\n' + genes + '\n'
-        );
-
-        System.out.println(
-        "This is the amount of base pairs: "
-        + '\n' + base_pairs + '\n'
-        );
-
-        System.out.println(
-        "This is the percentage of bases: "
-        + '\n' + porcentage_of_bases + '\n'
-        );
-
-        System.out.println(
-        "This is the amount of sequence base pairs: "
-        + '\n' + porcentage_sequence_base_pairs + '\n'
-        );
-
-        System.out.println(
-        "This is the sequence base pairs: "
-        + '\n' + sequence_base_pairs + '\n'
-        );
+        display_info();
+        display_number();
+        display_genes();
+        display_base_pairs();
+        display_porcentage_of_bases();
+        display_porcentage_sequence_base_pairs();
+        display_sequence_base_pairs();
     }
     
 }
