@@ -1,10 +1,18 @@
 public class Chromosome {
+    String info;
     int number;
     int genes;
     int base_pairs;
     double porcentage_of_bases;
     int sequence_base_pairs;
     double porcentage_sequence_base_pairs;
+
+    void display_info() {
+        System.out.println(
+            "Information about this chromosome: " 
+            + info
+        );
+    }
 
     void display_number() {
         System.out.println(
@@ -49,6 +57,11 @@ public class Chromosome {
     }
     
     void display_all() {
+        System.out.println(
+            '\n' + "Information about this chromosome:" 
+            + '\n' + info
+        );
+
         System.out.println(
         "This is the amount of genes: "
         + '\n' + genes + '\n'
