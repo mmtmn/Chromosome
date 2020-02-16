@@ -2,9 +2,9 @@ public class Chromosome {
     String info;
     int number;
     int genes;
-    int base_pairs;
+    long base_pairs;
     double porcentage_of_bases;
-    int sequence_base_pairs;
+    long sequence_base_pairs;
     double porcentage_sequence_base_pairs;
 
     void display_info() {

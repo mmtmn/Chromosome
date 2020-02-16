@@ -129,13 +129,13 @@ class Chr1 {
         thirteen.sequence_base_pairs = 187297063;
         thirteen.porcentage_sequence_base_pairs = 97.93;
         
-        Chromosome forteen = new Chromosome();
-        forteen.number = 14;
-        forteen.genes = 800;
-        forteen.base_pairs = 106360585;
-        forteen.porcentage_of_bases =  6.2;
-        forteen.sequence_base_pairs = 187297063;
-        forteen.porcentage_sequence_base_pairs = 97.93;
+        Chromosome fourteen = new Chromosome();
+        fourteen.number = 14;
+        fourteen.genes = 800;
+        fourteen.base_pairs = 106360585;
+        fourteen.porcentage_of_bases =  6.2;
+        fourteen.sequence_base_pairs = 187297063;
+        fourteen.porcentage_sequence_base_pairs = 97.93;
         
         Chromosome fifteen = new Chromosome();
         fifteen.number = 15;
@@ -220,9 +220,9 @@ class Chr1 {
         Chromosome total = new Chromosome();
         total.number = 24;
         total.genes = 21000;
-        total.base_pairs = 3079843747;
+        total.base_pairs = 3079843747L;
         total.porcentage_of_bases =  100;
-        total.sequence_base_pairs = 2857698560;
+        total.sequence_base_pairs = 2857698560L;
         total.porcentage_sequence_base_pairs = 92.79;
 
         /* Chromosome Template
@@ -236,11 +236,31 @@ class Chr1 {
         one.sequence_base_pairs = 
         one.porcentage_sequence_base_pairs = */
 
-        // Testing the output
+        // Testing the outputs
         one.display_all();
         two.display_all();
         three.display_all();
         four.display_all();
+        five.display_all();
+        six.display_all();
+        seven.display_all();
+        eight.display_all();
+        nine.display_all();
+        ten.display_all();
+        eleven.display_all();
+        twelve.display_all();
+        thirteen.display_all();
+        fourteen.display_all();
+        fifteen.display_all();
+        sixteen.display_all();
+        seventeen.display_all();
+        nineteen.display_all();
+        twenty.display_all();
+        twenty1.display_all();
+        twenty2.display_all();
+        x.display_all();
+        y.display_all();
+        total.display_all();
     }
 
 }
